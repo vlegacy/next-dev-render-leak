@@ -1,0 +1,14 @@
+{
+  "name": "next-dev-render-leak",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --inspect",
+    "probe": "node probe.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  }
+}
